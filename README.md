@@ -1,11 +1,9 @@
 # miniserve-lite
 
-Minimal static file server. Zero deps.
+`curl -fsSL https://raw.githubusercontent.com/JovianOps/miniserve-lite/master/install.sh | sh`
+
+or
 
 ```bash
-miniserve-lite .        # serve current dir on 8000
-miniserve-lite . 3000   # custom port
+git clone https://github.com/JovianOps/miniserve-lite && cd miniserve-lite && ./miniserve-lite.sh .
 ```
-
-Windows: `miniserve-lite.bat . 3000`  
-Unix: `./miniserve-lite.sh . 3000`
