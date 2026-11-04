@@ -57,3 +57,7 @@ Uses `http.server.SimpleHTTPRequestHandler` and `socketserver.TCPServer`. Change
 ## License
 
 MIT
+
+## Security
+
+Binds to `0.0.0.0` - accessible to other devices on the same network. Do **not** serve directories containing private, sensitive, or personal files on untrusted networks. Use only on trusted networks or serve only public files.
